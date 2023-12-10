@@ -30,7 +30,7 @@ clf.fit(X_train, y_train)
 # Supongamos que estamos considerando una película con las siguientes características:
 nueva_pelicula = pd.DataFrame({
     'Género': [1],
-    'Director': [1],
+    'Director': [2],
     'Año': [2014],
     'Reparto': [1]
 })
